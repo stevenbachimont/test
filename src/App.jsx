@@ -1,11 +1,11 @@
 import './App.css';
-import dockerSvg from "./assets/docker.svg";
+import steven from "./assets/moi.png";
 
 function App() {
 
   return (
     <>
-      <img src={dockerSvg} alt="Docker's logo" />
+      <img src={steven} alt="steven les bras croisés" />
     </>
   )
 }
