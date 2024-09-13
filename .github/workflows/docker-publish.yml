@@ -40,6 +40,6 @@ jobs:
           password: ${{ secrets.VPS_PASSWORD }}
           port: 22
           script: |
-            cd /test  
+            cd /root/test
             docker-compose pull web  
             docker-compose up -d web  
