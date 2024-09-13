@@ -20,11 +20,11 @@ jobs:
 
 
       - name: Build Docker image
-        run: docker build -t ton-dockerhub-username/test:latest .
+        run: docker build -t stevenbachimont/test:latest .
 
 
       - name: Push Docker image
-        run: docker push ton-dockerhub-username/test:latest
+        run: docker push stevenbachimont/test:latest
 
   deploy:
     runs-on: ubuntu-latest
