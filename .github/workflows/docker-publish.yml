@@ -37,6 +37,8 @@ jobs:
           script: |
             cd /root/test
             git pull origin main
-            docker-compose pull web  
-            docker-compose up -d web  
+            docker-compose down
+            docker-compose build web
+            docker-compose up -d web
             docker image prune -f
+         
