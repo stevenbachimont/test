@@ -20,7 +20,8 @@ jobs:
 
 
       - name: Build Docker image
-        run: docker build -t stevenbachimont/test:latest .
+        run: docker build --no-cache -t stevenbachimont/test:latest .
+
 
 
       - name: Push Docker image
