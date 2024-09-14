@@ -1,5 +1,5 @@
 import './App.css';
-import steven from "./assets/moi.png";
+import steven from "./assets/moi.jpg";
 
 function App() {
 
